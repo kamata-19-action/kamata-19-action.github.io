@@ -1,0 +1,140 @@
+@import "./flexoki.css";
+@import "./fonts.css";
+
+:root {
+  --content-text-color: var(--flexoki-black);
+  --footer-text-color: var(--flexoki-200);
+  --content-link-hl-color: var(--flexoki-cyan-600);
+  --twitter: #1DA1F2;
+  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--flexoki-blue-100);
+  
+  margin: 0;
+  padding: 0;
+  font-family: "BIZ UDPGothic", sans-serif;
+}
+
+.header {
+  font-family: "BIZ UDPMincho", serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--flexoki-green-700);
+  color: var(--flexoki-paper);
+}
+
+.header .header_title {
+  padding: 2.75em;
+  font-weight: bolder;
+}
+.header .title {
+  font-size: 2.77em;
+}
+.header img {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.base {
+  background-color: var(--flexoki-blue-100);
+  margin: 0;
+  min-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.base .article {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.35em;
+  padding: 3.5em 4.75em 14.5em;
+  font-size: 1.12em;
+  color: var(--content-text-color);
+  background-color: var(--flexoki-blue-50);
+  border-color: var(--flexoki-blue-300);
+}
+
+.base .article　h1, .base .article　h1 {
+  line-height: 1.85em;
+  margin: 5em;
+}
+.base .article li .label {
+  font-weight: bold;
+}
+.base .article li .date {
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+.base .article li .time {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.base .article li .place {
+  font-weight: bold;
+}
+.base .article li .note {
+  font-weight: bold;
+}
+
+.base .article p .creator {
+  font-weight: bold;
+}
+
+.base .article a {
+  color: var(--content-text-color);
+  text-decoration: underline dashed var(--content-link-hl-color);
+}
+
+.base .article a.dummy, .base .article .dummy a {
+  color: var(--flexoki-400);
+  text-decoration: underline solid var(--flexoki-400);
+}
+.base .article a.hl {
+  color: var(--content-link-hl-color);
+}
+.base .article a.twihash {
+  color: var(--twitter);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.base .article img {
+  width: 65%;
+  margin: 1em auto;
+  padding: 0;
+  display: block;
+}
+
+.base .article .qr {
+  margin: 1.5em auto;
+  padding: 0;
+  display: block;
+  
+}
+.base .article img.qr {
+  width: 35%;
+}
+.base .article span.qr {
+  overflow-wrap: break-word;
+  width: 65%;
+}
+
+.footer {
+  font-family: "BIZ UDPMincho", serif;
+  --pad: 1.35em;
+  margin: 0;
+  padding: var(--pad);
+  font-size: .95em;
+  background-color: var(--flexoki-green-500);
+  color: var(--footer-text-color);
+}
+.footer a {
+  color: var(--footer-text-color);
+  text-decoration: none;
+}

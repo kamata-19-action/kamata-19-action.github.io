@@ -30,9 +30,14 @@ body {
 .header .header_title {
   padding: 2.75em;
   font-weight: bolder;
+  text-align: left;
 }
 .header .title {
   font-size: 2.77em;
+  display: block;
+  text-align: right;
+  margin: 0;
+  margin-right: auto;
 }
 .header img {
   width: 100%;
@@ -52,7 +57,8 @@ body {
 .base .article {
   width: 70%;
   margin: 0 auto;
-  line-height: 1.35em;
+  line-height: 1.65;
+  letter-spacing: 0.05em;
   padding: 3.5em 4.75em 14.5em;
   font-size: 1.12em;
   color: var(--content-text-color);
@@ -60,9 +66,13 @@ body {
   border-color: var(--flexoki-blue-300);
 }
 
-.base .article　h1, .base .article　h1 {
-  line-height: 1.85em;
+.base .article　h1, .base .article　h2 {
+  line-height: 5.2;
   margin: 5em;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-right: auto;
 }
 .base .article li .label {
   font-weight: bold;

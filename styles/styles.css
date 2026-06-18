@@ -22,6 +22,7 @@ body {
 .header {
   font-family: "BIZ UDPMincho", serif;
   margin: 0;
+  margin-right: auto;
   padding: 0;
   background-color: var(--flexoki-green-700);
   color: var(--flexoki-paper);
@@ -33,11 +34,14 @@ body {
   text-align: left;
 }
 .header .title {
+  width: 17em;
   font-size: 2.77em;
   display: block;
   text-align: right;
   margin: 0;
   margin-right: auto;
+  line-height: 1.35;
+  letter-spacing: 0.025em;
 }
 .header img {
   width: 100%;
@@ -69,7 +73,10 @@ body {
 .base .article　h1, .base .article　h2 {
   line-height: 5.2;
   margin: 5em;
-  width: 100%;
+  margin-top: 30em;
+  padding: 2em;
+  padding-top: 8em;
+  width: 50%;
   display: block;
   text-align: center;
   margin-right: auto;
@@ -117,8 +124,12 @@ body {
 .base .article img {
   width: 65%;
   margin: 1em auto;
+  margin-top: 2em;
   padding: 0;
   display: block;
+}
+.base .article ul {
+  margin-top: 2em;
 }
 
 .base .article .qr {

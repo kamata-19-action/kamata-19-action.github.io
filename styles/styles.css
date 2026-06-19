@@ -84,26 +84,35 @@ body {
   text-align: center;
   margin-right: auto;
 }
-.base .article li .label {
+.base .article li .label, .base .article p .label {
   font-weight: bold;
 }
-.base .article li .date {
+.base .article li .date, .base .article p .date {
   font-weight: bolder;
   font-size: 1.4em;
 }
-.base .article li .time {
+.base .article li .time, .base .article p .time {
   font-weight: bold;
   font-size: 1.2em;
 }
-.base .article li .place {
+.base .article li .place, .base .article p .place {
   font-weight: bold;
   font-size: 1.13em;
 }
-.base .article li .note {
+.base .article ul .note, .base .article p .note {
   font-weight: bold;
 }
 
-.base .article p .creator {
+.base .article ul .count, .base .article p .count {
+  font-size: 1.1em;
+  font-style: oblique;
+}
+.base .article ul .enhanced, .base .article p .enhanced {
+  font-size: 1.3em;
+  color: var(--flexoki-purple-600);
+}
+
+.base .article ul .creator .base .article p .creator {
   font-weight: bold;
 }
 

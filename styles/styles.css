@@ -103,6 +103,11 @@ body {
   font-weight: bold;
 }
 
+.base .article ul .quot, .base .article p .quot {
+  color: var(--flexoki-400);
+  font-style: oblique;
+  font-family: "BIZ UDPMincho", serif;
+}
 .base .article ul .count, .base .article p .count {
   font-size: 1.1em;
   font-style: oblique;

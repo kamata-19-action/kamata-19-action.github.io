@@ -26,7 +26,6 @@ body {
   background-color: var(--flexoki-green-700);
   color: var(--flexoki-paper);
 }
-
 .header .header_title {
   overflow-x: hidden;
   padding: 1.75vw;
@@ -35,6 +34,10 @@ body {
   margin-right: 0 auto;
   position: relative;
   right: 8vw;
+}
+.header .header_title a {
+  color: var(--flexoki-paper);
+  text-decoration: none;
 }
 .header .title {
   width: 17em;
@@ -58,7 +61,25 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
 }
-
+.base .pn_nav {
+  width: 70%;
+  margin: 0 auto .1em;
+  line-height: 1.65;
+  letter-spacing: 0.05em;
+  padding: .5em 4.75em .5em;
+  font-size: 1.12em;
+  color: var(--content-text-color);
+  background-color: var(--flexoki-blue-50);
+  border-color: var(--flexoki-green-500);
+  border-style: none groove;
+  border-width: .25em;
+  display: flex;
+  justify-content: space-between;
+}
+.base .pn_nav a {
+  color: var(--content-text-color);
+  text-decoration: underline dashed var(--content-link-hl-color);
+}
 .base .article {
   width: 70%;
   margin: 0 auto;

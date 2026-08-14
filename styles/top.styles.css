@@ -208,3 +208,31 @@ body {
   padding: .3em;
   vertical-align: middle;
 }
+.peace_ota_decl_i {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.peace_ota_decl .text {
+  min-width: 40%;
+  padding: 1em;
+}
+.peace_ota_decl .gallery {
+  max-width: 30%;
+  padding: 1.1em;
+}
+.peace_ota_decl .gallery_item {
+}
+.peace_ota_decl .gallery_item img {
+  width: 85%;
+}
+.peace_ota_decl .gallery_item .caption {
+  width: 85%;
+  display: inline-block;
+  color: var(--flexoki-500);
+}
+.jp_constitution .enhanced{
+  font-size: 1.3em;
+  color: var(--flexoki-purple-600);
+  
+}

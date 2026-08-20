@@ -1,5 +1,6 @@
 @import "./flexoki.css";
 @import "./fonts.css";
+@import "./text_effects.css";
 
 body {
   background-color: var(--flexoki-50);
@@ -42,6 +43,7 @@ body {
   height: 100%;
   min-height: 3em;
   width: 33.33%;
+  padding: .3em;
   background-color: var(--flexoki-green-700);
   transition: all .3s;
 }
@@ -81,6 +83,9 @@ body {
 .top_header .header_menu .dropdown_li {
   background-color: var(--flexoki-green-500);
   transition: all .3s;
+  font-size: .8em;
+  padding: .3em;
+  border-top: .075em solid var(--flexoki-green-700);
   position: relative;
 }
 

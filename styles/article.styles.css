@@ -1,0 +1,16 @@
+@import "./flexoki.css";
+@import "./fonts.css";
+@import "./text_effects.css";
+
+@import "./common.styles.css";
+@import "./top.styles.css";
+
+.top_header .header_hero {
+  height: initial;
+  padding-bottom: 0.1em;
+  background-color: var(--flexoki-green-700);
+}
+
+.top_header .header_hero  img {
+  width: 100%;
+}

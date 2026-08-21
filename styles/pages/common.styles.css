@@ -1,5 +1,5 @@
-@import "./flexoki.css";
-@import "./fonts.css";
+@import "./../modules/flexoki.css";
+@import "./../modules/fonts.css";
 
 :root {
   --content-text-color: var(--flexoki-black);

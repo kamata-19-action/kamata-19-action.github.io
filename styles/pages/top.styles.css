@@ -1,6 +1,5 @@
-@import "./flexoki.css";
-@import "./fonts.css";
-@import "./text_effects.css";
+@import "./common.styles.css";
+@import "./../modules/text_effects.css";
 
 body {
   background-color: var(--flexoki-50);
@@ -107,7 +106,6 @@ body {
   height: 40em;
   width: 100%;
 }
-
 .top_header .header_hero .hero_media {
   height: 95%;
   width: 100%;

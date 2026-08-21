@@ -236,8 +236,20 @@ body {
   display: inline-block;
   color: var(--flexoki-500);
 }
-.jp_constitution .enhanced{
+.jp_constitution .enhanced {
   font-size: 1.3em;
   color: var(--flexoki-purple-600);
   
+}
+@media (print) {
+  .sepnl {
+    display: none;
+  }
+  .top_header .header_menu {
+    display: block;
+  }
+  .top_header .header_menu .header_menu_g {
+    margin: 0;
+    margin-left: auto;
+  }
 }

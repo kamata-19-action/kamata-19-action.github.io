@@ -12,8 +12,6 @@
 }
 
 body {
-  background-color: var(--flexoki-blue-100);
-  
   margin: 0;
   padding: 0;
   font-family: "BIZ UDPGothic", sans-serif;
@@ -23,180 +21,19 @@ body {
   font-family: "BIZ UDPMincho", serif;
   margin: 0 auto;
   padding: 0;
-  background-color: var(--flexoki-green-700);
-  color: var(--flexoki-paper);
-}
-.header .header_title {
-  overflow-x: hidden;
-  padding: 1.75vw;
-  font-weight: bolder;
-  text-align: left;
-  margin-right: 0 auto;
-  position: relative;
-  right: 8vw;
-}
-.header .header_title a {
-  color: var(--flexoki-paper);
-  text-decoration: none;
 }
 .header .title {
-  width: 17em;
-  font-size: 5.77vw;
-  text-align: right;
-  margin: 0 auto;
-  line-height: 1.35;
-  letter-spacing: 0.025em;
+  color: var(--flexoki-paper);
 }
-.header img {
+
+.header .header_hero > img {
   width: 100%;
   display: block;
   margin: 0;
   padding: 0;
 }
 
-.base {
-  background-color: var(--flexoki-blue-100);
-  margin: 0;
-  padding: 0;
-  min-height: 80vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
 
-.base .pn_nav, .base .article {
-  width: 70%;
-  margin: 0 auto .1em;
-  line-height: 1.65;
-  letter-spacing: 0.05em;
-  padding: .5em 3.75em .5em;
-  font-size: 1.12em;
-  color: var(--content-text-color);
-  background-color: var(--flexoki-blue-50);
-  border-style: none groove;
-  border-width: .25em;
-  
-}
-.base .pn_nav {
-  border-color: var(--flexoki-green-500);
-  display: flex;
-  justify-content: space-between;
-}
-.base .pn_nav a {
-  color: var(--content-text-color);
-  text-decoration: underline dashed var(--content-link-hl-color);
-}
-.base .article {
-  border-color: var(--flexoki-blue-300);
-}
-
-.base .article　h1, .base .article　h2 {
-  line-height: 5.2;
-  margin: 5em;
-  margin-top: 30em;
-  padding: 2em;
-  padding-top: 8em;
-  width: 50%;
-  display: block;
-  text-align: center;
-  margin-right: auto;
-}
-.base .article li .label, .base .article p .label {
-  font-weight: bold;
-}
-.base .article li .date, .base .article p .date {
-  font-weight: bolder;
-  font-size: 1.4em;
-}
-.base .article li .time, .base .article p .time {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-.base .article li .place, .base .article p .place {
-  font-weight: bold;
-  font-size: 1.13em;
-}
-.base .article ul .note, .base .article p .note {
-  font-weight: bold;
-}
-
-.base .article ul .quot, .base .article p .quot {
-  color: var(--flexoki-400);
-  font-style: oblique;
-  font-family: "BIZ UDPMincho", serif;
-}
-.base .article ul .count, .base .article p .count {
-  font-size: 1.1em;
-  font-style: oblique;
-}
-.base .article ul .enhanced, .base .article p .enhanced {
-  font-size: 1.3em;
-  color: var(--flexoki-purple-600);
-}
-
-.base .article ul .creator .base .article p .creator {
-  font-weight: bold;
-}
-
-.base .article a {
-  color: var(--content-text-color);
-  text-decoration: underline dashed var(--content-link-hl-color);
-}
-
-.base .article a.dummy, .base .article .dummy a {
-  color: var(--flexoki-400);
-  text-decoration: underline solid var(--flexoki-400);
-}
-.base .article a.hl {
-  color: var(--content-link-hl-color);
-}
-.base .article a.tweet {
-  color: var(--twitter);
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: .65em;
-  background-color: var(--flexoki-paper);
-  padding: .3em;
-  text-decoration: none;
-  border-color: var(--twitter);
-  margin: .4em;
-}
-.base .article a.twihash {
-  color: var(--twitter);
-  text-decoration: none;
-  font-weight: bold;
-}
-.base .article a.tweet img {
-  display: inline;
-  width: 1.14em;
-  margin: 0;
-  padding: .3em;
-  vertical-align: middle;
-}
-
-.base .article img {
-  width: 65%;
-  margin: 1em auto;
-  margin-top: 2em;
-  padding: 0;
-  display: block;
-}
-.base .article ul {
-  margin-top: 2em;
-}
-
-.base .article .qr {
-  margin: 1.5em auto;
-  padding: 0;
-  display: block;
-  
-}
-.base .article img.qr {
-  width: 45%;
-}
-.base .article span.qr {
-  overflow-wrap: break-word;
-  width: 85%;
-}
 
 .footer {
   font-family: "BIZ UDPMincho", serif;

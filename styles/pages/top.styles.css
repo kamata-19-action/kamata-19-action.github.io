@@ -140,10 +140,6 @@ body {
   color: var(--flexoki-purple-600);
   text-shadow: .06em .06em 0 var(--flexoki-paper);
 }
-.header .header_hero .hero_overlay .hero_overlay_line2 {
-  display: inline-block;
-  margin-left: 1.5em;
-}
 
 .top_entries_area {
   margin: 0;
